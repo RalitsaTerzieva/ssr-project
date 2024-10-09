@@ -1,6 +1,6 @@
 # SSR Project
 
-A simple application built with **React** and **Next.js** to practice Server-Side Rendering (SSR). This project is developed following the steps outlined in the book **REACT 18 Design Patterns and Best Practices** by Carlos Santana Roldan.
+A simple application built with **React** and **Next.js** to practice Server-Side Rendering (SSR). This project is developed following the steps outlined in the book **React 18 Design Patterns and Best Practices** by Carlos Santana Roldan.
 
 ## Features
 
@@ -36,3 +36,8 @@ A simple application built with **React** and **Next.js** to practice Server-Sid
 
    ```bash
    npm run dev
+
+## Acknowledgments
+
+- React 18 Design Patterns and Best Practices by Carlos Santana Roldan. [GitHub Repository](https://github.com/PacktPublishing/React-18-Design-Patterns-and-Best-Practices-Fourth-Edition)
+
