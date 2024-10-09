@@ -1,6 +1,6 @@
 # SSR Project
 
-A simple application built with **React** and **Next.js** to practice Server-Side Rendering (SSR).
+A simple application built with **React** and **Next.js** to practice Server-Side Rendering (SSR). This project is developed following the steps outlined in the book **REACT 18 Design Patterns and Best Practices** by Carlos Santana Roldan.
 
 ## Features
 
