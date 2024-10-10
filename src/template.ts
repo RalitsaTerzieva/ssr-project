@@ -1,4 +1,4 @@
-export default (body: any) => `
+export default (body: any, gists: any) => `
   <!DOCTYPE html>
   <html>
     <head>
@@ -6,7 +6,8 @@ export default (body: any) => `
     </head>
     <body>
       <div id="app">${body}</div>
+      <script>window.gists = ${JSON.stringify(gists)}</script> 
       <script src="/bundle.js"></script>
     </body>
   </html>
-`
+  `
