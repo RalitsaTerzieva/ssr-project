@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^5.0.0",
+    "@types/isomorphic-fetch": "^0.0.39",
     "express": "^4.21.1",
+    "isomorphic-fetch": "^3.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "webpack": "^5.95.0"
