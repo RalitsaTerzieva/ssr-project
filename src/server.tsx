@@ -13,9 +13,9 @@ app.use(express.static(path.resolve(__dirname, './dist/public')))
 app.get('/', (req: Request, res: Response) => {
   fetch('https://api.github.com/users/gaearon/gists')
     .then(response => response.json())
-    .then(gists => {
+    .then((gists) => {
       const body = renderToString(<App gists={gists}/>)
-      const html = template(body);
+      const html = template(body, gists);
       res.send(html);
     })
 })
